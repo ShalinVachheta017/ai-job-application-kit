@@ -1,0 +1,19 @@
+output_language_mode: "match_job_description"
+default_result_status: "draft"
+generate_cover_letter: true
+generate_standard_cv: true
+generate_two_column_cv: true
+compile_pdfs: false
+
+application_limits:
+  experience_blocks: 2
+  projects: 4
+  cover_letter_paragraphs: 4
+
+job_fetch:
+  timeout_seconds: 20
+  user_agent: "Mozilla/5.0 (compatible; AIJobApplicationKit/1.0)"
+  save_raw_html: false
+
+privacy:
+  denylist_file: "privacy_denylist.txt"

@@ -1,0 +1,23 @@
+name: "Alex Example"
+email: "alex.example@example.com"
+phone: "+49 000 000000"
+location: "Berlin, Germany"
+linkedin: "linkedin.com/in/alex-example"
+github: "github.com/alex-example"
+portfolio: "alex-example.dev"
+availability: "Available from 1 September 2026"
+
+language_levels:
+  english: "C1"
+  german: "B1, currently improving towards B2"
+
+work_authorization: "Eligible to work in Germany"
+open_to_relocation: true
+relocation_cities:
+  - "within Germany"
+
+preferred_roles:
+  - "Junior Data Scientist"
+  - "AI Engineer"
+  - "Machine Learning Engineer"
+  - "Data Analyst"

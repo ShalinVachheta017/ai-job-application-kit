@@ -1,0 +1,53 @@
+# Private user profile files
+00_user_profile/personal_info.yaml
+00_user_profile/experience_bank.yaml
+00_user_profile/truth_rules.md
+
+# Local config and secrets
+config.yaml
+.env
+.env.*
+!.env.example
+
+# Generated application outputs
+03_generated_applications/*
+!03_generated_applications/.gitkeep
+
+# Real tracker
+06_tracker/applied_jobs_master.csv
+*.xlsx
+
+# Fetched job input scratch files
+02_job_inputs/*
+!02_job_inputs/.gitkeep
+!02_job_inputs/job_description.example.md
+
+# Generated documents
+*.pdf
+*.docx
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python/runtime cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Temporary files
+tmp*
+*.tmp
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

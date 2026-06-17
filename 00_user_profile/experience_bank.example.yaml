@@ -1,0 +1,134 @@
+research_experience:
+  - id: thesis_recommendation_system
+    title: "Master's Thesis - Recommendation System for Learning Content"
+    organisation: "Example University"
+    location: "Berlin, Germany"
+    start: "2025-10"
+    end: "present"
+    role_tags: [machine_learning, recommender_systems, data_science]
+    tech:
+      - Python
+      - pandas
+      - scikit-learn
+      - PyTorch
+      - FastAPI
+      - Docker
+      - MLflow
+    bullets:
+      - "Built an end-to-end recommendation pipeline covering data ingestion, preprocessing, model training, evaluation, and API-based inference."
+      - "Implemented experiment tracking and reproducible training runs using MLflow and Docker."
+      - "Designed offline evaluation reports to compare ranking quality across baseline and neural models."
+
+  - id: research_assistant_forecasting
+    title: "Student Research Assistant - Time-Series Forecasting"
+    organisation: "Example University"
+    location: "Berlin, Germany"
+    start: "2024-04"
+    end: "2025-03"
+    role_tags: [forecasting, machine_learning, research]
+    tech:
+      - Python
+      - NumPy
+      - pandas
+      - TensorFlow
+      - Optuna
+    bullets:
+      - "Developed time-series forecasting experiments using Python, pandas, TensorFlow, and validation-driven model comparison."
+      - "Ran hyperparameter tuning with Optuna and documented experiment results for the research team."
+      - "Created reusable preprocessing scripts for cleaning, windowing, and evaluating sequence data."
+
+projects:
+  - id: customer_churn_prediction
+    title: "Customer Churn Prediction"
+    start: "2025-04"
+    end: "2025-06"
+    github_url: "https://github.com/alex-example/customer-churn"
+    role_tags: [data_science, machine_learning, analytics]
+    tech:
+      - Python
+      - pandas
+      - scikit-learn
+      - XGBoost
+      - Matplotlib
+    metrics:
+      - "84% validation accuracy"
+      - "12,000 sample customer records"
+    bullets:
+      - "Built a supervised churn prediction workflow covering data cleaning, feature engineering, model training, and evaluation."
+      - "Compared logistic regression, random forest, and XGBoost models using validation metrics."
+      - "Created feature importance analysis to translate model output into business-facing retention insights."
+
+  - id: rag_document_assistant
+    title: "RAG Document Assistant"
+    start: "2025-07"
+    end: "2025-09"
+    github_url: "https://github.com/alex-example/rag-document-assistant"
+    role_tags: [genai, nlp, backend]
+    tech:
+      - Python
+      - LangChain
+      - RAG
+      - Vector Search
+      - FastAPI
+      - Streamlit
+    bullets:
+      - "Built a retrieval-augmented question answering prototype for internal documents using chunking, embeddings, vector search, and grounded responses."
+      - "Developed modular ingestion, retrieval, and response-generation components for maintainable experimentation."
+      - "Added a Streamlit interface to test document upload, question answering, and source inspection."
+
+  - id: analytics_dashboard
+    title: "Sales Analytics Dashboard"
+    start: "2024-11"
+    end: "2025-01"
+    github_url: "https://github.com/alex-example/sales-dashboard"
+    role_tags: [analytics, data_visualization]
+    tech:
+      - Python
+      - pandas
+      - SQL
+      - Plotly
+      - Streamlit
+    bullets:
+      - "Built an interactive dashboard for sales trends, regional performance, and product-level analysis."
+      - "Prepared SQL-based data extracts and transformed them into analysis-ready tables with pandas."
+      - "Created clear visual summaries for non-technical stakeholders."
+
+skills:
+  programming_languages:
+    - Python
+    - SQL
+  data_analysis:
+    - pandas
+    - NumPy
+    - Matplotlib
+    - Plotly
+    - EDA
+  machine_learning:
+    - scikit-learn
+    - PyTorch
+    - TensorFlow
+    - XGBoost
+  genai:
+    - RAG
+    - LangChain
+    - Prompt Engineering
+    - Vector Search
+  deployment:
+    - FastAPI
+    - Docker
+    - MLflow
+    - GitHub Actions
+
+education:
+  - degree: "M.Sc. Data Science"
+    institution: "Example University"
+    location: "Berlin, Germany"
+    start: "2023-10"
+    end: "present"
+    focus: "Machine learning, data engineering, statistics, and applied AI"
+  - degree: "B.Sc. Computer Science"
+    institution: "Example Institute"
+    location: "Hamburg, Germany"
+    start: "2019-10"
+    end: "2023-07"
+    focus: "Programming, databases, algorithms, and software engineering"

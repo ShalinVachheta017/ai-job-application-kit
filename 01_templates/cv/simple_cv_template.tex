@@ -1,0 +1,66 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{sourcesans}
+\usepackage[a4paper,top=1.4cm,bottom=1.4cm,left=1.7cm,right=1.7cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{parskip}
+
+\definecolor{accent}{RGB}{24,84,132}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.2em,itemsep=1pt,topsep=2pt}
+
+% Replace placeholders manually or generate this file from your agent workflow.
+\newcommand{\UserName}{Alex Example}
+\newcommand{\UserHeadline}{Data Scientist | Python, ML, Analytics}
+\newcommand{\UserEmail}{alex.example@example.com}
+\newcommand{\UserPhone}{+49 000 000000}
+\newcommand{\UserLocation}{Berlin, Germany}
+\newcommand{\UserLinkedIn}{linkedin.com/in/alex-example}
+\newcommand{\UserGitHub}{github.com/alex-example}
+\newcommand{\UserPortfolio}{alex-example.dev}
+
+\begin{document}
+
+{\Huge\bfseries\color{accent}\UserName}
+
+\vspace{3pt}
+{\large\UserHeadline}
+
+\vspace{5pt}
+\href{mailto:\UserEmail}{\UserEmail} \textbullet{} \UserPhone \textbullet{} \UserLocation\\
+\UserLinkedIn \textbullet{} \UserGitHub \textbullet{} \UserPortfolio
+
+\vspace{6pt}
+\noindent{\color{accent}\rule{\linewidth}{1pt}}
+
+\section*{Summary}
+Tailored summary goes here. Keep it specific to the role and honest about experience level.
+
+\section*{Skills}
+\textbf{Programming:} Python, SQL\\
+\textbf{Data/ML:} pandas, scikit-learn, PyTorch, model evaluation\\
+\textbf{Tools:} Git, Docker, FastAPI, MLflow
+
+\section*{Experience}
+\textbf{Example Experience Title} \hfill 2025 -- Present\\
+\textit{Example Organization, Berlin}
+\begin{itemize}
+  \item Approved bullet from experience bank.
+  \item Approved bullet from experience bank.
+\end{itemize}
+
+\section*{Projects}
+\textbf{Example Project} \hfill 2025\\
+\begin{itemize}
+  \item Approved project bullet from experience bank.
+  \item Approved project bullet from experience bank.
+\end{itemize}
+
+\section*{Education}
+\textbf{M.Sc. Data Science}, Example University \hfill 2023 -- Present
+
+\end{document}

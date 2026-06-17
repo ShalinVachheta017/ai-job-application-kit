@@ -1,0 +1,7 @@
+# Copy this file to privacy_denylist.txt and add private terms before publishing.
+# One term per line. The privacy checker fails if any term appears.
+Your Real Name
+your.real.email@example.com
++49 123 456789
+linkedin.com/in/your-real-profile
+github.com/your-real-profile

@@ -1,0 +1,52 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{sourcesans}
+\usepackage[a4paper,top=1.8cm,bottom=1.8cm,left=2.0cm,right=2.0cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\definecolor{accent}{RGB}{24,84,132}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+\pagestyle{empty}
+
+\newcommand{\UserName}{Alex Example}
+\newcommand{\UserEmail}{alex.example@example.com}
+\newcommand{\UserPhone}{+49 000 000000}
+\newcommand{\UserLocation}{Berlin, Germany}
+
+\begin{document}
+
+{\Huge\bfseries\color{accent}\UserName}
+
+\vspace{4pt}
+\href{mailto:\UserEmail}{\UserEmail} \textbullet{} \UserPhone \textbullet{} \UserLocation
+
+\vspace{8pt}
+\noindent{\color{accent}\rule{\linewidth}{1pt}}
+
+\vspace{12pt}
+\today
+
+\vspace{10pt}
+Company Name\\
+Company Location
+
+\vspace{10pt}
+{\large\bfseries Application for Role Title}
+
+Dear Hiring Team,
+
+Paragraph 1: Why this company and why this role. Be specific and avoid generic praise.
+
+Paragraph 2: What you bring technically. Use two or three concrete pieces of evidence from your experience bank.
+
+Paragraph 3: How your experience connects to the company's product, mission, users, or domain. Mention honest gaps if needed.
+
+Paragraph 4: Availability, relocation or remote preference, and a concise call to action.
+
+Sincerely,\\[8pt]
+\textbf{\UserName}
+
+\end{document}
