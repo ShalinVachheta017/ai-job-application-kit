@@ -2,20 +2,9 @@
 
 ## Project Summary
 
-### What is this project?
-This is a public template for organizing tailored job applications without sharing real personal data.
+Applying for many jobs means reading job descriptions, editing CVs, writing letters, and tracking where you applied. This public starter project helps organize those steps. One challenge is making the process reusable without putting someone's personal information into a public repository.
 
-### Why is it interesting?
-It can be repetitive to read a vacancy, prepare a CV, write a letter and track the result.
-
-### How does it work?
-You give it a job description and your own experience information. It helps produce drafts and checks them before you apply.
-
-### Real-life example
-You find an opening and use the template to prepare documents to review and submit yourself. Public sample data is fake.
-
-### What did I learn?
-I learned how to organize document generation, job matching, and privacy-conscious workflows.
+The template uses a job description and information provided by its user to help prepare documents for review. For example, someone can use it to draft an application for a new opening, check the result, and submit it personally. I learned how to separate private information from reusable code and build basic quality checks into AI-assisted writing. The public examples use fake data.
 
 ---
 
