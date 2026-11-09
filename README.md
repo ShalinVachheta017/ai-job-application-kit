@@ -1,5 +1,27 @@
 # AI Job Application Kit
 
+## Project Summary
+
+### What is this project?
+This is a public template for organizing tailored job applications without sharing real personal data.
+
+### Why is it interesting?
+It can be repetitive to read a vacancy, prepare a CV, write a letter and track the result.
+
+### How does it work?
+You give it a job description and your own experience information. It helps produce drafts and checks them before you apply.
+
+### Real-life example
+You find an opening and use the template to prepare documents to review and submit yourself. Public sample data is fake.
+
+### What did I learn?
+I learned how to organize document generation, job matching, and privacy-conscious workflows.
+
+---
+
+## Technical Documentation
+
+
 A privacy-first template for creating tailored job applications from a job link and a structured personal profile.
 
 The kit is designed for applicants who want a repeatable workflow for:
